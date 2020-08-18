@@ -1,7 +1,8 @@
-# PING - Because Ping Is Not Google's Place Picker 😉
+# PING - The BEST Replacement for Google's Place Picker 
 [![](https://jitpack.io/v/rtchagas/pingplacepicker.svg)](https://jitpack.io/#rtchagas/pingplacepicker) [![](https://img.shields.io/badge/MinSDK-19-blue)](#)
 
- 
+## Credit Goes to Rafael Chagas (https://github.com/rtchagas)
+
 If you're here looking for a place picker you have probably read this:
 
 ![Google Place Picker was deprecated](https://github.com/rtchagas/pingplacepicker/blob/master/images/google_picker_deprecated.png?raw=true)
