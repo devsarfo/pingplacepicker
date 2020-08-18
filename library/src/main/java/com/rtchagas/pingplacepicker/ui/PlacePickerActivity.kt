@@ -433,7 +433,7 @@ class PlacePickerActivity : AppCompatActivity(), PingKoinComponent,
         // Initialize the recycler view
         rvNearbyPlaces.layoutManager = LinearLayoutManager(this)
 
-        // Bind the click listeners
+        // Bind the click listeners 
         disposables.addAll(
             btnMyLocation.onclick { getDeviceLocation(true) },
             btnRefreshLocation.onclick { refreshNearbyPlaces() },

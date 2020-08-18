@@ -79,7 +79,7 @@ class PingPlacePicker private constructor() {
             if (ConnectionResult.SUCCESS != result) {
                 throw GooglePlayServicesNotAvailableException(result)
             }
-
+            
             isNearbySearchEnabled = activity.resources.getBoolean(R.bool.enable_nearby_search)
 
             intent.setClass(activity, PlacePickerActivity::class.java)
