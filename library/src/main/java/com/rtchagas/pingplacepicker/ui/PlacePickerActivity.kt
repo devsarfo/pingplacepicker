@@ -147,7 +147,6 @@ class PlacePickerActivity : AppCompatActivity(), PingKoinComponent,
             data?.run {
                 val place = Autocomplete.getPlaceFromIntent(this)
                 moveCameraToSelectedPlace(place)
-                showConfirmPlacePopup(place)
             }
         }
     }

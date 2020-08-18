@@ -80,7 +80,8 @@ class PingPlacePicker private constructor() {
                 throw GooglePlayServicesNotAvailableException(result)
             }
 
-            isNearbySearchEnabled = activity.resources.getBoolean(R.bool.enable_nearby_search)
+            //isNearbySearchEnabled = activity.resources.getBoolean(R.bool.enable_nearby_search)
+            isNearbySearchEnabled = true //Enabled by default
 
             intent.setClass(activity, PlacePickerActivity::class.java)
             return intent
@@ -112,7 +113,7 @@ class PingPlacePicker private constructor() {
 
         var urlSigningSecret = ""
 
-        var isNearbySearchEnabled = false
+        var isNearbySearchEnabled = true
 
         @JvmStatic
         fun getPlace(intent: Intent): Place? {
